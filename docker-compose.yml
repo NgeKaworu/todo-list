@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   todo-list-umi:
-    
+    restart: "always"
     build:
       context: ./todo-list-umi
       dockerfile: docker/Dockerfile
@@ -12,7 +12,7 @@ services:
       - frontend
 
   todo-list-go:
-    
+    restart: "always"
     build:
       context: ./todo-list-go
       dockerfile: docker/Dockerfile
