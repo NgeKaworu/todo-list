@@ -1,6 +1,6 @@
 [submodule "todo-list-go"]
 	path = todo-list-go
-	url = git@github.com:NgeKaworu/todo-list-go.git
+	url = git@github.com:yingxv/todo-list-go.git
 [submodule "todo-list-umi"]
 	path = todo-list-umi
-	url = git@github.com:NgeKaworu/todo-list-umi.git
+	url = git@github.com:yingxv/todo-list-umi.git
